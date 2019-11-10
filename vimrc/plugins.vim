@@ -19,7 +19,7 @@ endtry
 let NERDTreeDirArrows=1
 let NERDTreeMinimalUI=1
 let NERDTreeIgnore=['\.o$', '\.pyc$', '\.php\~$']
-let NERDTreeWinSize = 35
+let NERDTreeWinSize = 25
 
 " Make sure that when NT root is changed, Vim's pwd is also updated
 let NERDTreeChDirMode = 2
@@ -34,7 +34,7 @@ map <leader>T :NERDTreeFind<cr>
 
 " Toogle on/off
 nmap <leader>o :NERDTreeToggle<cr>
-
+nmap 1 :NERDTree<CR>
 
 "------------------------------------------------------------------------------
 " BufExplorer
